@@ -65,15 +65,15 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=lucid-void&show_icons=true&hide_border=true&theme=catppuccin_mocha">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=lucid-void&show_icons=true&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&icon_color=89b4fa&text_color=cdd6f4&ring_color=cba6f7">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=lucid-void&show_icons=true&hide_border=true&theme=catppuccin_latte">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=lucid-void&show_icons=true&hide_border=true&theme=catppuccin_mocha" alt="GitHub Stats" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=lucid-void&show_icons=true&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&icon_color=89b4fa&text_color=cdd6f4" alt="GitHub Stats" />
 </picture>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lucid-void&layout=compact&hide_border=true&theme=catppuccin_mocha&langs_count=6">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lucid-void&layout=compact&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&langs_count=6">
   <source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=lucid-void&layout=compact&hide_border=true&theme=catppuccin_latte&langs_count=6">
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucid-void&layout=compact&hide_border=true&theme=catppuccin_mocha&langs_count=6" alt="Top Languages" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=lucid-void&layout=compact&hide_border=true&bg_color=1e1e2e&title_color=cba6f7&text_color=cdd6f4&langs_count=6" alt="Top Languages" />
 </picture>
 
 </div>
@@ -81,9 +81,9 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=lucid-void&hide_border=true&theme=catppuccin-mocha">
+  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com/?user=lucid-void&hide_border=true&background=1e1e2e&ring=cba6f7&fire=fab387&currStreakLabel=cdd6f4&sideLabels=cdd6f4&dates=6c7086&stroke=313244">
   <source media="(prefers-color-scheme: light)" srcset="https://streak-stats.demolab.com/?user=lucid-void&hide_border=true&theme=catppuccin-latte">
-  <img src="https://streak-stats.demolab.com/?user=lucid-void&hide_border=true&theme=catppuccin-mocha" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=lucid-void&hide_border=true&background=1e1e2e&ring=cba6f7&fire=fab387&currStreakLabel=cdd6f4&sideLabels=cdd6f4&dates=6c7086&stroke=313244" alt="GitHub Streak" />
 </picture>
 
 </div>
