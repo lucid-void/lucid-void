@@ -10,7 +10,11 @@
 
 ---
 
+<div align="center">
+
 ![terminal](assets/terminal.svg)
+
+</div>
 
 ---
 
