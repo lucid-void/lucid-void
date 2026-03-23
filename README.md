@@ -10,26 +10,7 @@
 
 ---
 
-```sh
-$ whoami
-  void — Cray Supercomputer Support Engineer
-
-$ cat /proc/void/info
-  ├── I keep supercomputers alive by day
-  ├── I break and rebuild my homelab by night
-  └── I live in the shell — bash, python, nix, repeat
-
-$ cat /proc/void/interests
-  ├── Infrastructure as Code (Packer · Terraform · Ansible)
-  ├── NixOS dotfiles — fedora workstation & WSL
-  ├── Custom keyboard design (schematic → PCB → solder → flash)
-  ├── Homelab: self-hosted everything, always rebuilding
-  ├── 3D printing & hardware tinkering
-  └── Building a second brain (ADHD-powered chaos → structured signal)
-
-$ echo $CURRENT_OBSESSION
-  "Overhauling the entire homelab IaC stack from the ground up."
-```
+![terminal](assets/terminal.svg)
 
 ---
 
@@ -40,37 +21,55 @@ $ echo $CURRENT_OBSESSION
 | Project | Description | Stack | Status |
 |---|---|---|---|
 | 🏗️ **homelab-iac** | Full IaC homelab — Packer images, Terraform infra, Ansible provisioning, new architecture & backup philosophy | `Packer` `Terraform` `Ansible` | 🔄 Rebuilding |
-| ❄️ **[dotfiles](https://github.com/lucid-void/dotfiles)** | NixOS configs for Fedora workstation & WSL — reproducible, declarative, mine | `Nix` `Bash` | ✅ Active |
+| ❄️ **[dotfiles](https://github.com/lucid-void/dotfiles)** | NixOS configs for Fedora workstation & WSL — reproducible, declarative, mine | `Nix` `Zsh` | ✅ Active |
 | ⌨️ **[macro32](https://github.com/lucid-void/macro32)** & **[firmware](https://github.com/lucid-void/macro32-zmk)** | 32-key macro pad built from scratch — KiCad schematic to PCB fab to firmware | `KiCad` `ZMK` `C` | 🔧 WIP |
 | 🧠 **second-brain** | AI-assisted personal knowledge system — because ADHD means externalizing everything | `Python` `LLMs` | 🌱 Early |
 
 ---
 
 ## `~/stack`
+
 **Shell & Scripting**
 
-![Bash](https://img.shields.io/badge/zsh-1e1e2e?style=for-the-badge&logo=gnubash&logoColor=a6e3a1)
-![Python](https://img.shields.io/badge/Python-1e1e2e?style=for-the-badge&logo=python&logoColor=f9e2af)
-![Nix](https://img.shields.io/badge/Nix-1e1e2e?style=for-the-badge&logo=nixos&logoColor=89b4fa)
+![zsh](https://img.shields.io/badge/zsh-1e1e2e?style=for-the-badge&logo=gnubash&logoColor=a6e3a1#gh-dark-mode-only)
+![Python](https://img.shields.io/badge/Python-1e1e2e?style=for-the-badge&logo=python&logoColor=f9e2af#gh-dark-mode-only)
+![Nix](https://img.shields.io/badge/Nix-1e1e2e?style=for-the-badge&logo=nixos&logoColor=89b4fa#gh-dark-mode-only)
+
+![zsh](https://img.shields.io/badge/zsh-eff1f5?style=for-the-badge&logo=gnubash&logoColor=40a02b#gh-light-mode-only)
+![Python](https://img.shields.io/badge/Python-eff1f5?style=for-the-badge&logo=python&logoColor=df8e1d#gh-light-mode-only)
+![Nix](https://img.shields.io/badge/Nix-eff1f5?style=for-the-badge&logo=nixos&logoColor=1e66f5#gh-light-mode-only)
 
 **Infrastructure**
 
-![Terraform](https://img.shields.io/badge/Terraform-1e1e2e?style=for-the-badge&logo=terraform&logoColor=cba6f7)
-![Ansible](https://img.shields.io/badge/Ansible-1e1e2e?style=for-the-badge&logo=ansible&logoColor=f38ba8)
-![Packer](https://img.shields.io/badge/Packer-1e1e2e?style=for-the-badge&logo=packer&logoColor=89dceb)
-![Docker](https://img.shields.io/badge/Docker-1e1e2e?style=for-the-badge&logo=docker&logoColor=89b4fa)
+![Terraform](https://img.shields.io/badge/Terraform-1e1e2e?style=for-the-badge&logo=terraform&logoColor=cba6f7#gh-dark-mode-only)
+![Ansible](https://img.shields.io/badge/Ansible-1e1e2e?style=for-the-badge&logo=ansible&logoColor=f38ba8#gh-dark-mode-only)
+![Packer](https://img.shields.io/badge/Packer-1e1e2e?style=for-the-badge&logo=packer&logoColor=89dceb#gh-dark-mode-only)
+![Docker](https://img.shields.io/badge/Docker-1e1e2e?style=for-the-badge&logo=docker&logoColor=89b4fa#gh-dark-mode-only)
+
+![Terraform](https://img.shields.io/badge/Terraform-eff1f5?style=for-the-badge&logo=terraform&logoColor=8839ef#gh-light-mode-only)
+![Ansible](https://img.shields.io/badge/Ansible-eff1f5?style=for-the-badge&logo=ansible&logoColor=d20f39#gh-light-mode-only)
+![Packer](https://img.shields.io/badge/Packer-eff1f5?style=for-the-badge&logo=packer&logoColor=04a5e5#gh-light-mode-only)
+![Docker](https://img.shields.io/badge/Docker-eff1f5?style=for-the-badge&logo=docker&logoColor=1e66f5#gh-light-mode-only)
 
 **Environment**
 
-![NixOS](https://img.shields.io/badge/NixOS-1e1e2e?style=for-the-badge&logo=nixos&logoColor=89b4fa)
-![Linux](https://img.shields.io/badge/Linux-1e1e2e?style=for-the-badge&logo=linux&logoColor=f9e2af)
-![Git](https://img.shields.io/badge/Git-1e1e2e?style=for-the-badge&logo=git&logoColor=fab387)
+![NixOS](https://img.shields.io/badge/NixOS-1e1e2e?style=for-the-badge&logo=nixos&logoColor=89b4fa#gh-dark-mode-only)
+![Linux](https://img.shields.io/badge/Linux-1e1e2e?style=for-the-badge&logo=linux&logoColor=f9e2af#gh-dark-mode-only)
+![Git](https://img.shields.io/badge/Git-1e1e2e?style=for-the-badge&logo=git&logoColor=fab387#gh-dark-mode-only)
+
+![NixOS](https://img.shields.io/badge/NixOS-eff1f5?style=for-the-badge&logo=nixos&logoColor=1e66f5#gh-light-mode-only)
+![Linux](https://img.shields.io/badge/Linux-eff1f5?style=for-the-badge&logo=linux&logoColor=df8e1d#gh-light-mode-only)
+![Git](https://img.shields.io/badge/Git-eff1f5?style=for-the-badge&logo=git&logoColor=fe640b#gh-light-mode-only)
 
 **Hardware**
 
-![KiCad](https://img.shields.io/badge/KiCad-1e1e2e?style=for-the-badge&logo=kicad&logoColor=fab387)
-![QMK](https://img.shields.io/badge/QMK_Firmware-1e1e2e?style=for-the-badge&logo=qmk&logoColor=cba6f7)
-![ZMK](https://img.shields.io/badge/ZMK_Firmware-1e1e2e?style=for-the-badge&logo=qmk&logoColor=a6e3a1)
+![KiCad](https://img.shields.io/badge/KiCad-1e1e2e?style=for-the-badge&logo=kicad&logoColor=fab387#gh-dark-mode-only)
+![QMK](https://img.shields.io/badge/QMK_Firmware-1e1e2e?style=for-the-badge&logo=qmk&logoColor=cba6f7#gh-dark-mode-only)
+![ZMK](https://img.shields.io/badge/ZMK_Firmware-1e1e2e?style=for-the-badge&logo=qmk&logoColor=a6e3a1#gh-dark-mode-only)
+
+![KiCad](https://img.shields.io/badge/KiCad-eff1f5?style=for-the-badge&logo=kicad&logoColor=fe640b#gh-light-mode-only)
+![QMK](https://img.shields.io/badge/QMK_Firmware-eff1f5?style=for-the-badge&logo=qmk&logoColor=8839ef#gh-light-mode-only)
+![ZMK](https://img.shields.io/badge/ZMK_Firmware-eff1f5?style=for-the-badge&logo=qmk&logoColor=40a02b#gh-light-mode-only)
 
 ---
 
@@ -113,6 +112,10 @@ $ logout
   # redirecting stdout → /dev/void
 ```
 
-[![GitHub followers](https://img.shields.io/github/followers/lucid-void?style=for-the-badge&logo=github&labelColor=1e1e2e&color=cba6f7&logoColor=cdd6f4)](https://github.com/lucid-void)
+[![GitHub followers](https://img.shields.io/github/followers/lucid-void?style=for-the-badge&logo=github&labelColor=1e1e2e&color=cba6f7&logoColor=cdd6f4#gh-dark-mode-only)](https://github.com/lucid-void)
+[![Profile views](https://komarev.com/ghpvc/?username=lucid-void&style=for-the-badge&color=cba6f7&labelColor=1e1e2e#gh-dark-mode-only)](https://github.com/lucid-void)
+
+[![GitHub followers](https://img.shields.io/github/followers/lucid-void?style=for-the-badge&logo=github&labelColor=eff1f5&color=8839ef&logoColor=4c4f69#gh-light-mode-only)](https://github.com/lucid-void)
+[![Profile views](https://komarev.com/ghpvc/?username=lucid-void&style=for-the-badge&color=8839ef&labelColor=eff1f5#gh-light-mode-only)](https://github.com/lucid-void)
 
 </div>

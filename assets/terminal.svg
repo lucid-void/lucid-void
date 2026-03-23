@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 472" width="680" height="472">
+  <defs>
+    <style>
+      .bg      { fill: #1e1e2e; }
+      .titlebar{ fill: #313244; }
+      .dot1    { fill: #f38ba8; }
+      .dot2    { fill: #f9e2af; }
+      .dot3    { fill: #a6e3a1; }
+      .title   { fill: #585b70; font-size: 12px; }
+      .prompt  { fill: #cba6f7; }
+      .cmd     { fill: #89b4fa; }
+      .out     { fill: #cdd6f4; }
+      .tree    { fill: #89dceb; }
+      .str     { fill: #a6e3a1; }
+      .dim     { fill: #585b70; }
+      .border  { fill: none; stroke: none; }
+      .line    { font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Courier New', monospace; font-size: 13px; }
+
+      @media (prefers-color-scheme: light) {
+        .bg      { fill: #eff1f5; }
+        .titlebar{ fill: #dce0e8; }
+        .dot1    { fill: #d20f39; }
+        .dot2    { fill: #df8e1d; }
+        .dot3    { fill: #40a02b; }
+        .title   { fill: #9ca0b0; }
+        .prompt  { fill: #8839ef; }
+        .cmd     { fill: #1e66f5; }
+        .out     { fill: #4c4f69; }
+        .tree    { fill: #209fb5; }
+        .str     { fill: #40a02b; }
+        .dim     { fill: #9ca0b0; }
+        .border  { stroke: #ccd0da; stroke-width: 1.5; }
+      }
+    </style>
+  </defs>
+
+  <!-- Window background -->
+  <rect width="680" height="472" rx="12" class="bg"/>
+  <rect width="679" height="471" rx="11.5" x="0.5" y="0.5" class="border"/>
+
+  <!-- Title bar -->
+  <rect width="680" height="40" rx="12" class="titlebar"/>
+  <rect y="28" width="680" height="12" class="titlebar"/>
+
+  <!-- Traffic lights -->
+  <circle cx="24" cy="20" r="6" class="dot1"/>
+  <circle cx="44" cy="20" r="6" class="dot2"/>
+  <circle cx="64" cy="20" r="6" class="dot3"/>
+
+  <!-- Window title -->
+  <text x="340" y="25" class="title" text-anchor="middle">void@homelab ~ zsh</text>
+
+  <!-- $ whoami -->
+  <text x="20" y="70" class="line"><tspan class="prompt">$</tspan><tspan class="cmd"> whoami</tspan></text>
+  <text x="20" y="92" class="line"><tspan class="out">  void </tspan><tspan class="dim">&#x2014;</tspan><tspan class="out"> Cray Supercomputer Support Engineer</tspan></text>
+
+  <!-- blank line: y=114 -->
+
+  <!-- $ cat /proc/void/info -->
+  <text x="20" y="136" class="line"><tspan class="prompt">$</tspan><tspan class="cmd"> cat</tspan><tspan class="out"> /proc/void/info</tspan></text>
+  <text x="20" y="158" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> I keep supercomputers alive by day</tspan></text>
+  <text x="20" y="180" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> I break and rebuild my homelab by night</tspan></text>
+  <text x="20" y="202" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x2514;&#x2500;&#x2500;</tspan><tspan class="out"> I live in the shell </tspan><tspan class="dim">&#x2014;</tspan><tspan class="out"> bash, python, nix, repeat</tspan></text>
+
+  <!-- blank line: y=224 -->
+
+  <!-- $ cat /proc/void/interests -->
+  <text x="20" y="246" class="line"><tspan class="prompt">$</tspan><tspan class="cmd"> cat</tspan><tspan class="out"> /proc/void/interests</tspan></text>
+  <text x="20" y="268" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> Infrastructure as Code (Packer &#xB7; Terraform &#xB7; Ansible)</tspan></text>
+  <text x="20" y="290" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> NixOS dotfiles &#x2014; fedora workstation &amp; WSL</tspan></text>
+  <text x="20" y="312" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> Custom keyboard design (schematic &#x2192; PCB &#x2192; solder &#x2192; flash)</tspan></text>
+  <text x="20" y="334" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> Homelab: self-hosted everything, always rebuilding</tspan></text>
+  <text x="20" y="356" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> 3D printing &amp; hardware tinkering</tspan></text>
+  <text x="20" y="378" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x2514;&#x2500;&#x2500;</tspan><tspan class="out"> Building a second brain (ADHD-powered chaos &#x2192; structured signal)</tspan></text>
+
+  <!-- blank line: y=400 -->
+
+  <!-- $ echo $CURRENT_OBSESSION -->
+  <text x="20" y="422" class="line"><tspan class="prompt">$</tspan><tspan class="cmd"> echo </tspan><tspan class="prompt">$CURRENT_OBSESSION</tspan></text>
+  <text x="20" y="444" class="line"><tspan class="str">  "Overhauling the entire homelab IaC stack from the ground up."</tspan></text>
+</svg>
