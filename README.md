@@ -24,9 +24,9 @@
 
 | Project | Description | Stack | Status |
 |---|---|---|---|
-| 🏗️ **homelab-iac** | Full IaC homelab — Packer images, Terraform infra, Ansible provisioning, new architecture & backup philosophy | `Packer` `Terraform` `Ansible` | 🔄 Rebuilding |
-| ❄️ **[dotfiles](https://github.com/lucid-void/dotfiles)** | NixOS configs for Fedora workstation & WSL — reproducible, declarative, mine | `Nix` `Zsh` | ✅ Active |
-| ⌨️ **[macro32](https://github.com/lucid-void/macro32)** & **[firmware](https://github.com/lucid-void/macro32-zmk)** | 32-key macro pad built from scratch — KiCad schematic to PCB fab to firmware | `KiCad` `ZMK` `C` | 🔧 WIP |
+| 🏗️ **[homelab](https://github.com/lucid-void/homelab)** | Full IaC homelab — Packer images, Terraform infra, Ansible provisioning, new architecture & backup philosophy | `Packer` `Terraform` `Ansible` `renovatebot` `CVE scanning` | ✅ Active |
+| ❄️ **[dotfiles](https://github.com/lucid-void/dotfiles)** | dotfile configs for Fedora workstation & WSL  | `Zsh` | ✅ Active |
+| ⌨️ **[macro32](https://github.com/lucid-void/macro32)** & **[firmware](https://github.com/lucid-void/macro32-zmk)** | 32-key macro pad built from scratch — KiCad schematic to PCB fab to firmware | `KiCad` `ZMK` `C` | currently discontinued |
 | 🧠 **second-brain** | AI-assisted personal knowledge system — because ADHD means externalizing everything | `Python` `LLMs` | 🌱 Early |
 
 ---
