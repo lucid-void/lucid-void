@@ -52,7 +52,7 @@
 
   <!-- $ whoami -->
   <text x="20" y="70" class="line"><tspan class="prompt">$</tspan><tspan class="cmd"> whoami</tspan></text>
-  <text x="20" y="92" class="line"><tspan class="out">  void </tspan><tspan class="dim">&#x2014;</tspan><tspan class="out"> Cray Supercomputer Support Engineer</tspan></text>
+  <text x="20" y="92" class="line"><tspan class="out">  void </tspan><tspan class="dim">-</tspan><tspan class="out"> Cray Supercomputer Support Engineer</tspan></text>
 
   <!-- blank line: y=114 -->
 
@@ -60,22 +60,22 @@
   <text x="20" y="136" class="line"><tspan class="prompt">$</tspan><tspan class="cmd"> cat</tspan><tspan class="out"> /proc/void/info</tspan></text>
   <text x="20" y="158" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> I keep supercomputers alive by day</tspan></text>
   <text x="20" y="180" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> I break and rebuild my homelab by night</tspan></text>
-  <text x="20" y="202" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x2514;&#x2500;&#x2500;</tspan><tspan class="out"> I live in the shell </tspan><tspan class="dim">&#x2014;</tspan><tspan class="out"> bash, python, nix, repeat</tspan></text>
+  <text x="20" y="202" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x2514;&#x2500;&#x2500;</tspan><tspan class="out"> I live in the shell </tspan><tspan class="dim">-</tspan><tspan class="out"> zsh, python, chezmoi, repeat</tspan></text>
 
   <!-- blank line: y=224 -->
 
   <!-- $ cat /proc/void/interests -->
   <text x="20" y="246" class="line"><tspan class="prompt">$</tspan><tspan class="cmd"> cat</tspan><tspan class="out"> /proc/void/interests</tspan></text>
-  <text x="20" y="268" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> Infrastructure as Code (Packer &#xB7; Terraform &#xB7; Ansible)</tspan></text>
-  <text x="20" y="290" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> NixOS dotfiles &#x2014; fedora workstation &amp; WSL</tspan></text>
-  <text x="20" y="312" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> Custom keyboard design (schematic &#x2192; PCB &#x2192; solder &#x2192; flash)</tspan></text>
-  <text x="20" y="334" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> Homelab: self-hosted everything, always rebuilding</tspan></text>
+  <text x="20" y="268" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> GitOps homelab - Talos Kubernetes managed with Flux</tspan></text>
+  <text x="20" y="290" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> chezmoi dotfiles - Arch Linux</tspan></text>
+  <text x="20" y="312" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> Custom keyboards - Corne &amp; Macro32 (schematic &#x2192; PCB &#x2192; solder &#x2192; flash)</tspan></text>
+  <text x="20" y="334" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> Embedded &amp; badge hacking - fri3d MeshCore</tspan></text>
   <text x="20" y="356" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x251C;&#x2500;&#x2500;</tspan><tspan class="out"> 3D printing &amp; hardware tinkering</tspan></text>
-  <text x="20" y="378" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x2514;&#x2500;&#x2500;</tspan><tspan class="out"> Building a second brain (ADHD-powered chaos &#x2192; structured signal)</tspan></text>
+  <text x="20" y="378" class="line"><tspan class="out">  </tspan><tspan class="tree">&#x2514;&#x2500;&#x2500;</tspan><tspan class="out"> Self-hosting everything, always rebuilding</tspan></text>
 
   <!-- blank line: y=400 -->
 
   <!-- $ echo $CURRENT_OBSESSION -->
   <text x="20" y="422" class="line"><tspan class="prompt">$</tspan><tspan class="cmd"> echo </tspan><tspan class="prompt">$CURRENT_OBSESSION</tspan></text>
-  <text x="20" y="444" class="line"><tspan class="str">  "Overhauling the entire homelab IaC stack from the ground up."</tspan></text>
+  <text x="20" y="444" class="line"><tspan class="str">  "Building the most premium Corne — anodized aluminum case."</tspan></text>
 </svg>
